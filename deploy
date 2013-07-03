@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# Deploy irresponsiblecode.com
+
+rsync -glpPrtvz --exclude=".git" --exclude="deploy" --exclude=".DS_Store" --exclude=".gitignore" . apps@spock.ariejan.net:/home/apps/sites/irresponsiblecode.com
