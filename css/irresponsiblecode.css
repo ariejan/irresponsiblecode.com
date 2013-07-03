@@ -7,7 +7,7 @@ body {
 
 #wrapper {
     width: 748px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
 }
 
 header h1 {
@@ -55,4 +55,22 @@ article ul {
         font-size: 1em;
         line-height: 1.4em;
     }
+}
+
+#social {
+    text-align: center;
+}
+
+#social a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+
+    background-color: #f53d00;
+    border-radius: 4px;
+}
+
+#social a img {
+    width: 32px;
+    height: 32px;
 }
